@@ -1,0 +1,455 @@
+body{
+    overflow-y: hidden;
+}
+
+.navbar-brand{
+font-size: 30px;
+font-style: italic;
+}
+.navbar{
+    z-index: 9999;
+    background-color: rgb(5, 8, 26) !important;
+}
+.navbar-toggler-icon{
+background-color: #fff !important;
+}
+
+/* end of nav part style */
+
+.head {
+    background-image: url("../images/abstract-health-medical-science-healthcare-icon-digital-technology-science-concept-modern-innovation-treatment-medicine-on-hi-tech-future-blue-background-for-wallpaper-.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+.layer{
+   background-color: rgba(0,0,0,0.4);
+}
+.navbar-nav .nav-link{
+   color: aliceblue;
+}
+.navbar-nav .nav-link:hover,.nav-link:active {
+    color: rgb(150, 213, 225) !important;
+    border-bottom:2px solid #fff;
+}
+.headText{
+  
+ margin-top: 25%;
+}
+.spaned{
+      font-family: "Oswald", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 85px;
+      /*font-style: normal;*/
+}
+.setting-icon{
+   background-color: rgb(5, 8, 26);
+   width: 40px;
+   height: 30px;
+   top: 25%;
+   left: 0%;
+   border-top-right-radius:4px;
+   border-bottom-right-radius: 4px;
+
+}
+.setting-icon i {
+   font-size: 20px;
+}
+.up-icon {
+    width: auto;
+    height: auto;
+    background-color: rgb(237, 237, 238);
+    bottom: 5%;
+    right: 5%;
+    z-index: 666;
+
+}
+.up-icon i ,.DeepBlue,.goals li::marker ,.dept-text h5 {
+    color: rgb(5, 8, 26);
+
+}
+.FontBig{
+   font-size: larger; 
+}
+
+/* end of home part style */
+
+.bg-LightSecondary{
+    background-color: rgb(240, 240, 240);
+}
+.lineBefore{
+    padding: 10px;
+    position: relative;
+    font-size: 22px;
+    font-weight: 700;
+    color: rgb(18, 112, 106);
+}
+.lineBefore::before{
+        content: "";
+        display:inline-block;
+        width:180px;
+        height:5px;
+        background-color: rgb(18, 112, 106);
+        position: absolute;
+        left: 400px;
+        top: 50%;
+       transform: translateY(-50%);
+}
+.lineBefore::after{
+    content: "";
+    display:inline-block;
+    width:180px;
+    height:5px;
+    background-color: rgb(18, 112, 106);
+    position: absolute;
+    right: 400px;
+    top: 50%;
+   transform: translateY(-50%);
+}
+.welcome,.medicalService,.specialist,.NewsAddress{
+    font-weight: 800;
+    font-size: 50px;
+}
+
+.goals{
+font-size:16px;
+
+color:#5c5f65;
+}
+.goals li{
+    list-style-type: square;
+    list-style-position: inside;
+    padding: 10px;
+}
+.btn-DeepBlue{
+   color: white;
+    background-color:  rgb(5, 8, 26);
+    padding: 15px;
+}
+.bg-LightBlue{
+    background-color: rgba(209, 209, 211, 0.8);
+}
+ #about a{
+    color:white !important;
+  /*  background-color: rgb(5, 8, 26);*/
+}
+ #about a:hover {
+    color: rgb(5, 8, 26) !important;
+} 
+
+/* end of about part style */
+
+#departments .nav-link{
+    
+    font-size:20px ;
+    border: 1px solid rgb(5, 8, 26)!important;
+}
+#departments .nav-link:active,#departments .nav-link:hover,#departments .nav-link.active{
+    background-color: rgb(5, 8, 26)!important;
+   
+}
+#departments .nav-link:active .serv-text h5,#departments .nav-link:hover .serv-text h5,#departments .nav-link.active .serv-text h5{
+    color: #fff !important;
+} 
+#departments .nav-link:active .serv-icon i,#departments .nav-link:hover .serv-icon i,#departments .nav-link.active .serv-icon i{
+    color: #fff !important;
+} 
+.services{
+   
+    /* background-color:  rgb(5, 8, 26);  */
+    width: 150px;
+    max-width: 150px;
+     /* border:1px solid #fff; */
+     text-align: center;
+     overflow: hidden;
+     margin:10px;
+     /*color :rgb(5, 8, 26) !important ;*/
+  
+}
+.serv-icon i,.serv-text h5{
+   
+    color:rgb(5, 8, 26);
+   
+}
+.dept-text h5{
+    line-height: 35px;
+}
+
+/* end of departments part style */
+
+.content-work {
+    background-color: rgba(255, 255, 255, 0.9);
+    opacity: 0;
+    margin: 8px;
+    transition: opacity 1s;
+}
+.content-work i {
+    background-color: rgb(5, 8, 26);
+    color: white;
+    border-radius: 50%;
+}
+.content-work i:hover{
+    color: rgb(5, 8, 26);
+    background-color: white;
+    border: 1px solid rgb(5, 8, 26);
+}
+.work-item:hover .content-work {
+    opacity: 1;
+}
+.work-item img {
+    transition: transform 1s;
+}
+.item-btom {
+    top: 50%;
+    transition: all 1s;
+}
+.work-item:hover .item-btom {
+    top: 0%;
+}
+.content-work h6 {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+   
+}
+.cont{
+    background-color: rgb(5, 8, 26);
+}
+
+/* end of doctors part style */
+
+#news .nav-pills .nav-link.active ,#news .nav-pills .nav-link:hover  {
+    border-radius: 20px;
+    background-color:rgb(5, 8, 26) !important;
+    color: white !important;
+}
+#news .nav-pills .nav-link{
+    color:rgb(5,8,26) !important; 
+    font-size:20px ;
+    border: none !important;
+}
+#news .news,.icon-contact i{
+    color: rgb(5, 8, 26);
+}
+
+/* end of news part style */
+
+.Grey-sec
+{
+    background-image: url(../images/desktop-wallpaper-piles-fistula-surgery-in-dombivli-best-general-surgery-hospital-in-dombivli.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.Grey-sec2{
+    background-image: url(../images/Free\ Photo\ _\ Team\ of\ doctors\ putting\ oxygen\ mask\ on\ a\ male\ senior\ patient\ face.jfif);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; 
+}
+.min-vh-75{
+    min-height: 75%;
+}
+.layerd
+{
+    background-color: rgba(179, 188, 198, 0.7);
+
+}
+.blue-icon {
+    background-color: transparent;
+    width: 80px;
+    margin: auto;
+    border-radius: 50%;
+    border: 10px solid rgba(5, 8, 26, 0.6);
+    margin-top: 20px;
+}
+.blue-icon i,
+.blued-member h4,
+.blued-member p {
+
+    color: rgb(5, 8, 26);
+    font-size: 2rem;
+
+}
+.blued-member p {
+    font-size: 20px;
+}
+
+/* end of Grey Sec Part style */
+
+.send-blue{
+background-color:rgb(5, 8, 26)!important;
+border: none;
+margin-top: 5%;
+margin-bottom: 5%;
+color: #fff;
+}
+.send-blue:hover{
+    color: rgb(5, 8, 26) !important;
+    background-color: #fff !important;
+    border: 1px solid rgb(5,8,26) ;
+}
+.form-control{
+    border: none !important;
+    box-shadow: none!important;
+}
+.form-contact:hover {
+     border:1px solid rgb(5,8,26) !important;
+}
+
+/* end of cotact style */
+
+footer{
+    width: 100%;
+    background-color:rgb(5, 8, 26) !important;
+}
+.end h4{
+    font-size: 18px;
+    color: #fff !important;
+   
+    }
+.end p,.end span{
+       color: #5c5f65;
+       font-size: 16px;
+      
+    }
+.copy-right{
+        font-size:20px;
+    }
+
+/* end of footer style */
+
+#loading{
+    display:flex;
+    position: fixed;
+    color:rgb(5, 8, 26);
+    background-color:rgba(209, 209, 211);
+    top:0px;
+   bottom: 0px;
+   right: 0px;
+   left: 0px;
+   z-index: 999999;
+}
+.lds-dual-ring,
+.lds-dual-ring:after {
+  box-sizing: border-box;
+}
+.lds-dual-ring {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6.4px solid currentColor;
+  border-color: currentColor transparent currentColor transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* end of loading page style */
+
+
+/* Media Query */
+
+@media (min-width: 1021px) and (max-width:1470px){
+    .lineBefore::after{
+        right:150px;
+        width:250px;
+    }
+    .lineBefore::before{
+        left:150px;
+        width:250px;
+    }
+}
+@media (min-width: 810px) and (max-width:1020px){
+    .lineBefore::after{
+        right:90px;
+        width:170px;
+    }
+    .lineBefore::before{
+        left:90px;
+        width:170px;
+    }
+    .depts{
+        flex-wrap: wrap-reverse;
+    }
+}
+@media (min-width: 801px) and (max-width:809px){
+.welcome{
+    font-size: 45px;
+}
+.lineBefore::after{
+    right:60px;
+    width:140px;
+}
+.lineBefore::before{
+    left:60px;
+    width:140px;
+}
+.depts{
+    flex-wrap: wrap-reverse;
+}
+}
+@media (min-width:621px) and (max-width:800px){
+    .lineBefore::after{
+        right:60px;
+        width:100px;
+    }
+    .lineBefore::before{
+        left:60px;
+        width:100px;
+    }
+    .welcome{
+        font-size: 45px;
+    }
+     .depts{
+        flex-wrap: wrap-reverse;
+     }
+
+}
+@media (min-width: 580px) and (max-width:620px){
+    .lineBefore::after{
+        right:50px;
+        width:90px;
+    }
+    .lineBefore::before{
+        left:50px;
+        width:90px;
+    }
+    .depts{
+        flex-wrap: wrap-reverse;
+    }
+}
+@media only screen and (max-width: 579px) {
+.col-lg-2{
+    width: 50%;
+}
+.lineBefore::after{
+    right:40px;
+    width: 80px;
+}
+.lineBefore::before{
+    left:40px;
+    width:80px;
+}
+.depts{
+    flex-wrap: wrap-reverse;
+}
+}
